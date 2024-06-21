@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Test Automation Suite]">
+  <test name="TestNG Features Test(failed)">
+    <classes>
+      <class name="com.test.GoogleTest">
+        <methods>
+          <include name="IsmailPresent"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.GoogleTest -->
+      <class name="com.test.ExceptionTimeoutTest">
+        <methods>
+          <include name="infiniteLoop"/>
+        </methods>
+      </class> <!-- com.test.ExceptionTimeoutTest -->
+      <class name="com.test.GoogleTitleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.GoogleTitleTest -->
+      <class name="com.test.TestNGBasics">
+        <methods>
+          <include name="genreateReport"/>
+          <include name="launchBrowser"/>
+          <include name="setUp"/>
+          <include name="logOut"/>
+          <include name="enterUrl"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="deleteAllCookies"/>
+        </methods>
+      </class> <!-- com.test.TestNGBasics -->
+    </classes>
+  </test> <!-- TestNG Features Test(failed) -->
+</suite> <!-- Failed suite [TestNG Test Automation Suite] -->
